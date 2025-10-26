@@ -1,5 +1,32 @@
-# Vue 3 + Vite
+# 🎟️ TicketApp — Stage 2 Frontend Project
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+A simple, responsive ticket management system built with **React (Vite)**.  
+Users can **sign up, log in, manage tickets, and view dashboard stats** — all data is saved in **localStorage**.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+---
+
+## 🚀 Features
+
+✅ **Authentication (LocalStorage-based)**  
+- Sign up and sign in system with session stored locally.  
+- Redirects unauthenticated users to login.  
+
+✅ **Ticket Management**  
+- Add, edit, and delete tickets.  
+- Tickets are automatically saved to localStorage.  
+- Status options: `open`, `in_progress`, `closed`.
+
+✅ **Dashboard Overview**  
+- Displays total tickets and status breakdown (open, in progress, closed).  
+- Data syncs directly from stored tickets.  
+
+✅ **Responsive UI**  
+- Works seamlessly across desktop, tablet, and mobile devices.  
+- Styled with custom CSS (no frameworks).
+
+✅ **Persistent Storage**  
+- Uses browser localStorage to keep tickets and session data.
+
+---
+
+
